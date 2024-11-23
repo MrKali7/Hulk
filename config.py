@@ -1,7 +1,3 @@
-#(©)CodeXBotz
-#By @Codeflix_Bots
-
-
 
 import os
 import logging
@@ -69,7 +65,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @ultroidxTeam"
+USER_REPLY_TEXT = "Wooo ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ᴍʏ ᴏᴡɴᴇʀ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : ______"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6695586027)
